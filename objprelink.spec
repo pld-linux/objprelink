@@ -7,9 +7,9 @@ License:	GPL
 Group:		Development/Tools
 Source0:	http://leon.bottou.com/objprelink/%{name}.c.gz
 URL:		http://leon.bottou.com/objprelink/
-BuildRequires:	binutils
-BuildRequires:	binutils-static
+BuildRequires:	binutils, /usr/lib/libiberty.a
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+ExclusiveArch:	%{ix86} ppc
 
 %description
 This program replaces relocations in object files with less expensive
