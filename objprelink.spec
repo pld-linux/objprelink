@@ -23,12 +23,12 @@ Ten program zamienia relokacje w plikach objektów na mniej wymagaj±ce.
 Dziêki temu program jest szybciej linkowany w momencie uruchomienia.
 
 %prep
-%setup -T -c
-cp %{SOURCE0} .
+%setup -q -T -c
+cp -f %{SOURCE0} .
 gzip -d *.gz
 
 %build
-gcc %{rpmcflags} -o objprelink objprelink.c -lbfd /usr/lib/libiberty.a
+%{__cc} %{rpmcflags} -o objprelink objprelink.c -lbfd /usr/lib/libiberty.a
 
 %install
 rm -rf $RPM_BUILD_ROOT
