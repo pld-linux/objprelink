@@ -1,7 +1,7 @@
 Summary:	Tool to optimize relocations in object files
 Summary(pl):	Narzêdzie optymalizuj±ce relokacje w plikach objektów
 Name:		objprelink
-Version:	1
+Version:	2
 Release:	1
 License:	GPL
 Group:		Development/Tools
