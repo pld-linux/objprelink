@@ -6,6 +6,7 @@ Release:	5
 License:	GPL
 Group:		Development/Tools
 Source0:	http://leon.bottou.com/objprelink/%{name}.c.gz
+# Source0-md5:	53c4c235ec3da92e4a9fb50ffa54beeb
 URL:		http://leon.bottou.com/objprelink/
 BuildRequires:	binutils, /usr/lib/libiberty.a
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
