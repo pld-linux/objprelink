@@ -5,9 +5,6 @@ Version:	1
 Release:	4
 License:	GPL
 Group:		Development/Tools
-Group(de):	Entwicklung/Werkzeuge
-Group(fr):	Development/Outils
-Group(pl):	Programowanie/Narzêdzia
 Source0:	http://leon.bottou.com/objprelink/%{name}.c.gz
 URL:		http://leon.bottou.com/objprelink/
 BuildRequires:	binutils
