@@ -8,8 +8,8 @@ Group:		Development/Tools
 Group(de):	Entwicklung/Werkzeuge
 Group(fr):	Development/Outils
 Group(pl):	Programowanie/Narzêdzia
-Source0:	http://www.research.att.com/~leonb/objprelink/%{name}.c.gz
-URL:		http://www.research.att.com/~leonb/objprelink/
+Source0:	http://leon.bottou.com/objprelink/%{name}.c.gz
+URL:		http://leon.bottou.com/objprelink/
 BuildRequires:	binutils
 BuildRequires:	binutils-static
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -28,7 +28,7 @@ cp -f %{SOURCE0} .
 gzip -d *.gz
 
 %build
-%{__cc} %{rpmcflags} -o objprelink objprelink.c -lbfd /usr/lib/libiberty.a
+%{__cc} %{rpmcflags} -o objprelink objprelink.c -lbfd -liberty
 
 %install
 rm -rf $RPM_BUILD_ROOT
