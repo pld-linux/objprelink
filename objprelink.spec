@@ -34,7 +34,7 @@ gcc %{rpmcflags} -o objprelink objprelink.c -lbfd /usr/lib/libiberty.a
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 
-install %{name}-%{version}/objprelink $RPM_BUILD_ROOT%{_bindir}
+install objprelink $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
