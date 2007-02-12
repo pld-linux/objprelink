@@ -1,5 +1,5 @@
 Summary:	Tool to optimize relocations in object files
-Summary(pl):	Narzêdzie optymalizuj±ce relokacje w plikach obiektów
+Summary(pl.UTF-8):   NarzÄ™dzie optymalizujÄ…ce relokacje w plikach obiektÃ³w
 Name:		objprelink
 Version:	1
 Release:	5
@@ -16,9 +16,9 @@ ExclusiveArch:	%{ix86} ppc
 This program replaces relocations in object files with less expensive
 ones. This allows faster run-time dynamic linking.
 
-%description -l pl
-Ten program zamienia relokacje w plikach obiektów na mniej wymagaj±ce.
-Dziêki temu program jest szybciej konsolidowany w momencie
+%description -l pl.UTF-8
+Ten program zamienia relokacje w plikach obiektÃ³w na mniej wymagajÄ…ce.
+DziÄ™ki temu program jest szybciej konsolidowany w momencie
 uruchomienia.
 
 %prep
