@@ -1,5 +1,5 @@
 Summary:	Tool to optimize relocations in object files
-Summary(pl.UTF-8):   Narzędzie optymalizujące relokacje w plikach obiektów
+Summary(pl.UTF-8):	Narzędzie optymalizujące relokacje w plikach obiektów
 Name:		objprelink
 Version:	1
 Release:	5
